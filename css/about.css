@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+:root {
+  --red-color: #b73235;
+  --gery-color: #323743;
+  --white-color: #ffff;
+  --black-color: #0000;
+}
+/* navbar */
+.navbar-btn {
+  background-color: var(--red-color);
+  color: var(--white-color);
+  border-radius: 20px;
+  border: 1px solid var(--red-color);
+}
+
+.nav-icon {
+  color: var(--red-color);
+}
+/* hero */
+
+.vision-heading1 {
+  color: var(--red-color);
+  font-size: 60px;
+}
+
+.vision-heading2 {
+  color: var(--gery-color);
+  font-size: 60px;
+}
+
+/* section-team */
+.team-main-heading {
+  color: var(--red-color);
+  font-weight: bold;
+}
+.team-main-headingg {
+  color: var(--gery-color);
+  font-weight: bold;
+}
+.flipped-img {
+  transition: transform 0.5s ease;
+}
+
+.flipped-img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.fint-out {
+  text-decoration: none;
+  color: var(--gery-color);
+  font-weight: bold;
+}
+.team-heading-name {
+  color: var(--red-color);
+  font-weight: bold;
+}
+/* section-small-card */
+.leading-team1 {
+  color: var(--red-color);
+  font-weight: bold;
+}
+.leading-team2 {
+  color: var(--gery-color);
+  font-weight: bold;
+}
+.Avantage-heading {
+  color: var(--red-color);
+}
+.avantage-content h4 {
+  color: var(--red-color);
+  font-weight: bold;
+}
+.avantage-icon {
+  color: var(--white-color);
+  padding: 1em 2.5em;
+  background-color: var(--red-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.avantage-icon i {
+  color: var(--white-color);
+  font-size: 30px;
+}
+.avantage-icons {
+  color: var(--white-color);
+  padding: 1em 2.5em;
+  background-color: var(--gery-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.avantage-icons i {
+  color: var(--white-color);
+  font-size: 30px;
+}
+.Trusted-heading1 {
+  color: var(--red-color);
+}
+.Trusted-heading2 {
+  color: var(--gery-color);
+}
+.stars i {
+  color: var(--red-color);
+}
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item .col-md-4 {
+    max-width: 100%;
+  }
+}
+/* contect-section */
+.contect-heading1 {
+  color: var(--red-color);
+}
+.contect-heading2 {
+  color: var(--gery-color);
+}
+.info-item i {
+  color: var(--red-color);
+  font-size: 30px;
+}
+.info-item h2 {
+  color: var(--gery-color);
+  font-weight: bold;
+}
+.contect-btn {
+  background-color: var(--red-color);
+  border: var(--red-color);
+}
+/* section-map */
+.map {
+  position: relative;
+  width: 100%;
+  margin: 0 auto; /* Center the map on the page */
+}
+
+.map iframe {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+.map-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.map-icon img {
+  width: 80px; /* Adjust size as needed */
+  height: auto;
+}
+
+/* footer */
+.footer {
+  color: var(--black-color);
+  padding: 40px 20px;
+  font-size: 14px;
+}
+
+.footer-heading {
+  font-size: 22px;
+  color: var(--red-color);
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.footer p {
+  color: var(--black-color);
+}
+.footer p strong {
+  color: var(--red-color);
+}
+.footer a {
+  color: var(--red-color);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-map {
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+.social-icons a {
+  background-color: var(--red-color);
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 3em;
+  height: 2.6em;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.social-link {
+  color: var(--black-color);
+  font-size: 22px;
+}
+
+.copy-right p {
+  color: var(--red-color);
+}
