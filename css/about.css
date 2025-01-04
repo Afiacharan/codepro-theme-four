@@ -90,7 +90,7 @@ body {
 
 .avantage-icon i {
   color: var(--white-color);
-  font-size: 30px;
+  font-size: 20px;
 }
 .avantage-icons {
   color: var(--white-color);
@@ -103,8 +103,9 @@ body {
 }
 .avantage-icons i {
   color: var(--white-color);
-  font-size: 30px;
+  font-size: 20px;
 }
+/* .Trusted */
 .Trusted-heading1 {
   color: var(--red-color);
 }
@@ -209,8 +210,8 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  width: 3em;
-  height: 2.6em;
+  width: 50px;
+  height: 50px;
   font-size: 1.5rem;
   text-align: center;
 }
