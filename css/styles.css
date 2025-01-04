@@ -317,7 +317,15 @@ color: var(--gery-color);
   background-position: top; 
   height: 100vh; 
 }
-
+@media (max-width: 768px) {
+  .Nawsletter-background1 {
+    background-image: url('../images/bgn-newsletter.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: auto; /* Small devices ke liye height adjust karein */
+  }
+}
 
 .Newsletter-heading1{
   color: var(--red-color);
