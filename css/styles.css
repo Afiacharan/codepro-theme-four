@@ -204,7 +204,7 @@ body {
   justify-content: center;
   align-items: self-start;
   flex-direction: column;
-  color: white;
+  color: var(--white-color);
   text-align: start;
   transition: bottom 0.8s ease; 
   
